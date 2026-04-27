@@ -14,13 +14,15 @@ a {
     height: 1039px;
 }
 
-.about p {
+.about-right p {
     font-family: "Radio Canada Big", sans-serif;
   font-weight: 400;
   font-size: 1.8rem;
     color: #000000;
-    padding-bottom: 5.3rem;
+    width: 526px;
+height: 115px;
     line-height: 2.3rem;
+    padding-bottom: 4rem;
 }
 .about-right {
     width: 526px;
@@ -28,10 +30,6 @@ a {
     margin-left: 822px;
     margin-right: 72px;
     padding-top: 8.2rem;
-}
-
-.decisions .btn-white {
-    padding-bottom: 8.9rem;
 }
 
 .btn-brown {
@@ -64,6 +62,8 @@ a {
 display: flex;
 width: 1071px;
 height: 436px;
+margin-left: 18.7rem;
+margin-right: auto;
 }
 
 .decisions-left h1 {
@@ -78,26 +78,25 @@ height: 436px;
 }
 .decisions-left {
     width: 319px;
-    height: 272px;
-       display: flex;
-       margin-right: auto;
-       margin-left: 18.7rem;
+    height: 280px;
+    margin-left: 18.7px;
+    margin-right: auto;
+    margin-top: 25.3rem;
 
 }
 
 .decisions-right {
 width: 416px;
 height: 436px;
-margin-right: 18.2rem;
-margin-left: auto;
-margin-bottom: auto;
+margin-top: 18.3rem;
 }
+
 
 .decisions-right img {
     width: 416px;
     height: 325px;
     padding-bottom: 6.8rem;
-  
+
 }
 
 footer {
@@ -106,8 +105,17 @@ footer {
     height: 304px;
     margin-right: auto;
     margin-left: auto;
-    display: flex;
+     display: flex;
     justify-content: space-between;
+}
+
+footer a:visited {
+  color: #FFFFFF;
+  
+}
+
+footer a {
+    padding-bottom: 49px;
 }
 
 footer img {
@@ -118,6 +126,16 @@ footer img {
    margin-left: 72px;
 }
 
+.links-contact {
+    width: 385px;
+    height: 135px;
+    margin-right: 374px;
+    margin-left: 361px;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
 .links {
     width: 114px;
     height: 129px;
@@ -126,24 +144,24 @@ footer img {
     color: #FFFFFF;
     font-size: 1.6rem;
     text-decoration: none;
-    margin-right: auto;
-    margin-left: auto;
+}
+
+.links ul li {
+    padding-bottom: 25px;
 }
 
 .contact {
       font-family: "Radio Canada Big", sans-serif;
-  font-weight: 500;
-    color: #000000;
+  font-weight: 400;
+    color: #FFFFFF;
     font-size: 1.6rem;
     height: 165px;
     width: 135px;
-    margin-right: 377px;
-    margin-left: auto;
-    padding-left: 155px;
 }
 
 footer p {
-    padding-bottom: 2.8rem;
+    padding-top: 17px;
+    font-weight: 400;
 }
 
 .hero h1 {
@@ -158,14 +176,31 @@ font-family: "Radio Canada Big", sans-serif;
      padding-top: 6.7rem;
       margin-bottom: 5.2rem;
 }
-
+h2 {
+    font-family: "Radio Canada Big", sans-serif;
+    font-weight: 700;
+    color: #000000;
+    font-size: 4.8rem;
+    font-weight: 700;
+    padding-bottom: 1.2rem;
+ margin-right: 53rem;
+    margin-left: 53rem;
+   
+    margin-bottom: 2.8rem;
+    width: 38rem;
+}
 h3 {
     font-family: "Radio Canada Big", sans-serif;
     font-weight: 700;
     color: #000000;
     font-size: 3.6rem;
-    font-weight: 700;
     padding-bottom: 1.2rem;
+}
+
+h4 {
+    font-family: "Radio Canada Big", sans-serif;
+    font-weight: 500;
+color: #FFFFFF
 }
 .hero {
     background-image: url(images/desktop-speaker.png);
@@ -210,6 +245,32 @@ font-family: "Radio Canada Big", sans-serif;
   font-size: 1.6rem;
   color: #FFFFFF;
   line-height: 2.1rem;
+}
+
+.photos {
+    width: 1428px;
+    height: 541px;
+     margin-top: 7.1rem;
+      margin-bottom: 6.1rem;
+}
+
+.photos .btn-brown {
+    margin-left: 57.5rem;
+    margin-right: 57.5rem;
+    margin-bottom: 6.1rem;
+}
+
+.photos ul {
+    display: flex;
+    justify-content: space-between;
+    width: 1428px;
+    height: 338px;
+    padding-bottom: 7.1rem;
+}
+
+.photo-arrows {
+    margin-top: 130px;
+
 }
 
 .side-nav ul {
