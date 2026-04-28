@@ -350,6 +350,7 @@ width: 29.7rem;
     margin-right: auto;
     margin-left: 320px;
     padding-top: 5rem;
+    position: fixed;
 }
 
 .hero h1 {
@@ -361,7 +362,7 @@ width: 29.7rem;
     width: 36.1rem;
     height: 15.6rem;
      margin-left: 2.5rem; 
-     padding-top: 10.8rem;
+     padding-top: 20.8rem;
       
 }
 
